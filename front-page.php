@@ -21,7 +21,7 @@
     <div class="hero__container max-width">
         <div class="hero__content">
             <div class="hero__text-1">Hello, my name is</div>
-            <div class="hero__text-2">Aroa Cain</div>
+            <div class="hero__text-2">Let's Learn English!</div>
             <div class="hero__text-3"><span class="hero__text-3-static">I can help you with </span> <span
                     class="typing"></span>
             </div>
