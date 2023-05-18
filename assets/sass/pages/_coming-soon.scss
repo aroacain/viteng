@@ -1,0 +1,14 @@
+.front-page {
+  .headline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+
+    &__heading {
+      font-family: "Bitter", serif;
+      color: $primary;
+      font-size: 10rem;
+    }
+  }
+}

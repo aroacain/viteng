@@ -1,0 +1,8 @@
+.max-width {
+  max-width: 130rem;
+  margin: auto;
+  padding: 0 3rem;
+  @include atLarge {
+    padding: 0 8rem;
+  }
+}

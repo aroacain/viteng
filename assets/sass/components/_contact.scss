@@ -1,0 +1,29 @@
+/* contact section styling */
+.contact {
+  label {
+    @extend .typo__par;
+  }
+
+  .wpcf7-submit {
+    @extend .btn__small;
+  }
+
+  .wpcf7-text,
+  .wpcf7-textarea {
+    @extend .typo__par;
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    margin: 1rem 0rem;
+    outline: none;
+    padding: 0.5rem;
+    transition: all 0.3s ease;
+  }
+
+  .wpcf-resonse-output {
+    @extend .typo__par;
+    border-color: $secondary;
+    border-radius: 5px;
+  }
+}

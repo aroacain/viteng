@@ -1,0 +1,75 @@
+.typo {
+  &__title {
+    position: relative;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 6rem;
+    padding-bottom: 2rem;
+    font-family: "Ubuntu", sans-serif;
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0rem;
+      left: 50%;
+      width: 18rem;
+      height: 3px;
+      background: #111;
+      transform: translateX(-50%);
+    }
+  }
+  &__heading {
+    text-align: center;
+    font-family: $header-font;
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $primary;
+    @include atLarge {
+      font-size: 3rem;
+    }
+  }
+
+  &__subheading {
+    font-family: $header-font;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $secondary-dark;
+    @include atLarge {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__par {
+    font-family: $text-font;
+    font-size: 2.5rem;
+    font-weight: 200;
+    line-height: 1.25;
+    margin-bottom: 1rem;
+    text-align: justify;
+    @include atLarge {
+      font-size: 2rem;
+    }
+  }
+
+  // Modifiers
+  &--center {
+    text-align: center;
+  }
+
+  &--primary {
+    color: $primary;
+  }
+
+  &--white {
+    color: #fff;
+  }
+
+  &--white::before {
+    color: #fff;
+    background: #fff;
+  }
+}
